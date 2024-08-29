@@ -1,0 +1,96 @@
+:root {
+    --bg-color:white;
+    --text-color:black;
+    --primary:white;
+    --secondary:white;
+    --accent:white;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header{
+    display: inline;
+}
+nav {
+    display: block;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    background-color: var(--primary);
+}
+nav ul {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* Main */
+main{
+    background-color: var(--bg-color);
+    display: flex;
+    padding: 20px 10px ;
+}
+img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+  object-position: center;
+}
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    flex:66%
+}
+aside{
+    display: flex;
+    flex: 33%;
+}
+h2,h3{
+    color: black;
+}
+div.main-content > article {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  
+    padding: 20px;
+    margin-top: 20px;
+    background-color: var(--primary);
+}
+ /*Table*/
+table {
+    display: table;
+    width: 100%;
+}
+
+table.hide{
+    display: none;
+}
+
+h3 > button {
+    display: inline;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: blue;
+}
+button.hide{
+    display: none;
+}
+/* Aside */
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
