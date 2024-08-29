@@ -106,15 +106,20 @@ footer {
 }
 /* Media Query */
 @media screen and (max-width: 1280px) {
+  
+
+}
+@media screen and (max-width: 1060px) {
   nav ul {
     justify-content: center;
   }
-}
-@media screen and (max-width: 1060px) {
   main{
     flex-direction: column;
   }
   aside{
     margin: 20px 0;
+  }
+  img {
+    max-height: 300px;
   }
 }
