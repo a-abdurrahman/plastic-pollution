@@ -189,9 +189,11 @@ aside > p {
   margin: 10px 0;
 }
 aside > a {
-  width: fit-content;
-  margin: auto;
   color: blue;
+}
+a.wwf-link{
+  width: min-content;
+  margin: auto;
 }
 /* Footer */
 footer {
