@@ -189,6 +189,7 @@ aside > p {
   margin: 10px 0;
 }
 aside > a {
+  width: fit-content;
   margin: auto;
   color: blue;
 }
